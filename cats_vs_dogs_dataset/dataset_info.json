@@ -1,0 +1,32 @@
+{
+  "dataset_name": "Cats vs Dogs - Lab 9",
+  "image_size": [
+    64,
+    64,
+    3
+  ],
+  "num_classes": 2,
+  "classes": [
+    "cat",
+    "dog"
+  ],
+  "train_size": 1000,
+  "test_size": 200,
+  "format": "PNG",
+  "variations": [
+    "Wide range of fur colors (white, black, brown, gray, orange)",
+    "Different ear styles (pointy, floppy, rounded, long)",
+    "Variable face sizes and positions",
+    "Different eye colors and sizes",
+    "Random markings (stripes, spots, patches)",
+    "Variable whiskers and features",
+    "Different mouth expressions",
+    "Random noise and blur for realism"
+  ],
+  "structure": {
+    "train/cats/": "Training cat images",
+    "train/dogs/": "Training dog images",
+    "test/cats/": "Test cat images",
+    "test/dogs/": "Test dog images"
+  }
+}
